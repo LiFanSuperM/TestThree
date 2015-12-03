@@ -15,6 +15,7 @@
 		CE943DAF1C0553860084DC5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE943DAD1C0553860084DC5C /* LaunchScreen.storyboard */; };
 		CE943DBA1C0553860084DC5C /* tableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE943DB91C0553860084DC5C /* tableViewTests.m */; };
 		CE943DC51C0553860084DC5C /* tableViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE943DC41C0553860084DC5C /* tableViewUITests.m */; };
+		CE943E0D1C059EB90084DC5C /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE943E0C1C059EB90084DC5C /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		CE943DC01C0553860084DC5C /* tableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE943DC41C0553860084DC5C /* tableViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tableViewUITests.m; sourceTree = "<group>"; };
 		CE943DC61C0553860084DC5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE943E0C1C059EB90084DC5C /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE943E0D1C059EB90084DC5C /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 		CE943D931C0553860084DC5C = {
 			isa = PBXGroup;
 			children = (
+				CE943E0C1C059EB90084DC5C /* WebKit.framework */,
 				CE943D9E1C0553860084DC5C /* tableView */,
 				CE943DB81C0553860084DC5C /* tableViewTests */,
 				CE943DC31C0553860084DC5C /* tableViewUITests */,
@@ -496,6 +500,7 @@
 				CE943DCB1C0553860084DC5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE943DCC1C0553860084DC5C /* Build configuration list for PBXNativeTarget "tableViewTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +509,7 @@
 				CE943DCE1C0553860084DC5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE943DCF1C0553860084DC5C /* Build configuration list for PBXNativeTarget "tableViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +518,7 @@
 				CE943DD11C0553860084DC5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

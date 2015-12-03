@@ -7,9 +7,8 @@
 //
 
 #import "ViewController.h"
-
+#import <WebKit/WebKit.h>
 @interface ViewController ()
-
 @end
 
 @implementation ViewController
@@ -17,6 +16,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    UIWebView *webView = [[UIWebView alloc] initWithFrame:self.view.bounds];
+    [webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://www.baidu.com"]]];
+  //  [self.view addSubview:webView];
+    NSLog(@"111111");
+    NSLog(@"%@",webView);
 }
 
 - (void)didReceiveMemoryWarning {
